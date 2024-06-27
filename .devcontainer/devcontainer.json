@@ -1,5 +1,5 @@
 {
-    "name": "4 Robots in 4 Weeks Dev Container",
+    "name": "Start Creating Robots",
     "dockerComposeFile": [
         "docker-compose.yml"
     ],
