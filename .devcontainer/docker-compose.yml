@@ -16,8 +16,8 @@ services:
   novnc:
     image: theasp/novnc:latest
     environment:
-      - DISPLAY_WIDTH=1024
-      - DISPLAY_HEIGHT=768
+      - DISPLAY_WIDTH=1080
+      - DISPLAY_HEIGHT=700
     ports:
       - "8080:8080"
     restart: on-failure

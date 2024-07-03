@@ -16,7 +16,7 @@ def generate_launch_description():
         'with_sensors', default_value="false"
     )
     # This allows us to use the with_sensors variable in substitutions in this launch description.
-    with_sensors = LaunchConfiguration('with_sensors', default="false")
+    with_sensors = LaunchConfiguration('with_sensors', default="true")
 
     models_path = join(get_package_share_directory("start_creating_robots"), "worlds_and_models")
 
@@ -58,10 +58,7 @@ def generate_launch_description():
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=['/model/krytn/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
-                   '/coke/detach@std_msgs/msg/Empty@gz.msgs.Empty',
-                   '/coke/attach@std_msgs/msg/Empty@gz.msgs.Empty',
-                   ],
+        arguments=['/model/krytn/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist'],
         output='screen',
         remappings=[('/model/krytn/cmd_vel','/cmd_vel')]
     )

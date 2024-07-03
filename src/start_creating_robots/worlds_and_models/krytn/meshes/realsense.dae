@@ -17,7 +17,7 @@
   </asset>
   <library_images>
     <image id="MapFBXASC032FBXASC0352-image" name="MapFBXASC032FBXASC0352">
-      <init_from>../materials/textures/RealSense_Albedo.png</init_from>
+      <init_from>/workspace/src/start_creating_robots/worlds_and_models/krytn/materials/textures/RealSense_Albedo.png</init_from>
     </image>
   </library_images>
   <library_materials>

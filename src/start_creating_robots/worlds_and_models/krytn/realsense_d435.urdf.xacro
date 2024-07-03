@@ -17,6 +17,8 @@
           </submesh>
         </mesh>
       </geometry>
+      <origin xyz="0 0 0" rpy="0 0 ${pi/2}"/>
+
     </visual>
   </link>
 
