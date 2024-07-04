@@ -34,11 +34,13 @@ https://code.visualstudio.com
 
 In Windows: 
  - Open the "Terminal" app.
- - type `wsl` and hit enter. 
+ - type `wsl` and hit enter.
+ - type `cd` and hit enter.
  - type `git clone https://github.com/johnny555/start-creating-robots.git`
 
 On Mac or Linux: 
-- Open a Terminal 
+- Open a Terminal
+- type `cd` and hit enter.
 - type `git clone https://github.com/johnny555/start-creating-robots.git`
 
 ### Step 5: Open the folder in the Dev Container. 
